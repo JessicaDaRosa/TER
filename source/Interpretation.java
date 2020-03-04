@@ -48,6 +48,10 @@ public class Interpretation {
         this.s = s;
     }
 
+    public ArrayList<String> getSuccesseurs(String sommet){
+        return r.get(sommet);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
