@@ -52,6 +52,10 @@ public class Interpretation {
         return r.get(sommet);
     }
 
+    public ArrayList<String> getMarquings(String sommet){
+        return l.get(sommet);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
