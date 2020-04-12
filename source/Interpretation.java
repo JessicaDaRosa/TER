@@ -80,4 +80,9 @@ public class Interpretation {
                 '}';
     }
 
+    private void sat(Formula f){
+        if()
+
+    }
+
 }
